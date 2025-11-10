@@ -37,7 +37,8 @@ Essentially loops that repeat **for** x times, where x is an integer > 0
             list[5] = 5
             list[6] returns index error as the 7th element of the ```list``` does not exist; remember, **indexes start from 0 and go up to length - 1***
 - Parts of a __for loop__:
-    ```for x in range(5): \print(x)```
+    ```for x in range(5):```\
+          ```print(x)```
     - Our designator is ```for```, which defines the __for loop__
     - We then follow with the ```iterating variable```, where we can name it anything: ```x```, ```_```, ```iterating_variable```, ```banana``` are all valid ```iterating variables```
     - After the ```iterating variable```, we put ```in```, which points to our ```list```
@@ -51,11 +52,11 @@ Essentially loops that repeat **for** x times, where x is an integer > 0
     - Create a __for loop__ to ask the user *5 times* for their age.
     - Create a guessing game using __for loops__ and __if statements__, such that the player only gets *3 attempts* each for *5 questions*.
         - **Hint:** the ```break``` statement is used within any __loop__ (__for__, __while__) and *breaks* out of said __loop__. Example:
-            - ```for x in range(5):```
-                    ```if x == 3:```
-                        ```break```
-                    ```else:```
-                        ```print(x)```
+            - ```for x in range(5):```\
+                    ```if x == 3:```\
+                        ```break```\
+                    ```else:```\
+                        ```print(x)```\
             - This only prints numbers up to 2, despite the range being up to 4.
 
 ## Things Covered:
