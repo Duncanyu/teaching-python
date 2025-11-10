@@ -1,6 +1,6 @@
-### -- For Loops --
+# -- For Loops --
 ## What Are They?
-# Introduction
+### Introduction
 __For loops__ are similar to Scratch's repeat for x times, where x is an integer > 0
 
 Essentially loops that repeat **for** x times, where x is an integer > 0
