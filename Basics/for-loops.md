@@ -28,9 +28,9 @@ Essentially loops that repeat **for** x times, where x is an integer > 0
                 [1, 2, "three", 4, "five", True, 7]\
                 0, 1, 2, 3, 4, 5, 6
         - ```x``` is the value of the current index. The index will increase by one after each iteration:
-            [0, 1, 2, 3, 4]\
-            1. index = 0, x = list[0] = 0\
-            2. index = 1, x = list[1] = 1\
+            [0, 1, 2, 3, 4]
+            1. index = 0, x = list[0] = 0
+            2. index = 1, x = list[1] = 1
             3. ... so on
         - With this new knowledge, a new *error type* appears, the ```index error```, which occurs when the index requested/mentioned does not exist within the ```list```.\
             [0, 1, 2, 3, 4, 5]\
