@@ -21,7 +21,7 @@ Essentially loops that repeat **for** x times, where x is an integer > 0
         5. ```"string2"```
 - Now comes one of the more useful parts of a __for loop__, the ```iterating variable```.
     - ```iterating variables``` are essentially **temporary variables** that we define when initializing the __for loop__, as shown in the example below:
-        ```for x in range(5):```
+        ```for x in range(5):```\
                ^ ```x``` is our ```iterating variable```
         - ```range(5)``` produces a list ranging from 0 to 4. **IMPORTANT:** When indexing a ```list```, index being the *location* we are at in the ```list```, the first *element* is considered **number 0**, then moving on, 1, 2, 3, where the last is the **length of the list - 1**
             - What are the indexes for each *element* in this list?
